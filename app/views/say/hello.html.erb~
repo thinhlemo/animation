@@ -1,0 +1,8 @@
+<h1>Hello Word</h1>
+<p>It is now <%= Time.now%></p>
+<p>Time to say
+	<a href="/say/goodbye">Goodbye</a></b>
+	<% for file in @files %>
+	file name is : <%= file %>
+	<% end%>
+</p>

@@ -1,0 +1,5 @@
+<h1>Hello From Rails</h1>
+<p>It is now <%= Time.now%></p>
+<p>Time to say
+	<%= link_to "Goodbye"%>	
+</p>
